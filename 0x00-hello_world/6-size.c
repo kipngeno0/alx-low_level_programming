@@ -1,12 +1,17 @@
 #include <stdio.h>
 
+
 /**
  * main - main function
- * Return: 0 when okay
+ *
+ * Return: 0when good
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,");
+	printf("size of a char: %lu byte(s)", sizeof(char));
+	printf("size of a int: %lu byte(s)", sizeof(int));
+	printf("size of a long int: %lu byte(s)", sizeof(long int));
+	printf("size of a long long int: %lu byte(s)", sizeof(long long int));
+	printf("size of a float: %lu byte(s)", sizeof(float));
 	return (0);
 }
-
